@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:labelVisibilityMode="labeled">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/bottomhomeicon"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/bottom_dashboard"
+        android:icon="@drawable/bottomcustomericon"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/bottom_notifications"
+        android:icon="@drawable/bottomprofleicon"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/title_profile" />
+    <item
+        android:id="@+id/bottom_cart"
+        android:icon="@drawable/cart"
+        android:iconTint="@color/colorPrimary"
+        android:title="@string/title_cart" />
+
+
+</menu>

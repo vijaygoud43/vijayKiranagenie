@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#041763</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#525252</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#041763</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#fff</color>
+
+    <color name="yellow">#E7C61F</color>
+    <color name="gray">#AEA9A9</color>
+    <color name="formal_color">#e61c72</color>
+
+
+
+    <color name="reward1">#e9edf9</color>
+    <color name="reward2">#fae6ef</color>
+    <color name="reward3">#f8f5e4</color>
+    <color name="reward4">#e7fbfa</color>
+    <color name="reward5">#fae6ef</color>
+    <color name="reward6">#e9edf9</color>
+    <color name="reward7">#e9edf9</color>
+    <color name="reward8">#fae6ef</color>
+    <color name="reward9">#f8f5e4</color>
+    <color name="reward10">#e7fbfa</color>
+    <color name="reward11">#fae6ef</color>
+    <color name="reward12">#e9edf9</color>
+ <array name="androidcolors">
+
+
+     <item>@color/reward1</item>
+     <item>@color/reward2</item>
+     <item>@color/reward3</item> <item>@color/reward4</item>
+     <item>@color/reward5</item>
+
+
+
+ </array>
+
+
+
+
+
+    <array name="array_dot_active">
+        <item>@color/gray</item>
+        <item>@color/gray</item>
+        <item>@color/gray</item>
+        <item>@color/gray</item>
+        <item>@color/gray</item>
+    </array>
+</resources>

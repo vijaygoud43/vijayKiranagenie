@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mbr.KiranaGenie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.ProductFullDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SubCategoriesActivity"
+            android:exported="false"
+            android:label="Sub Categories" />
+        <activity
+            android:name=".ui.profile.Logout"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.WriteReview"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RewardDetails"
+            android:exported="false"
+            android:label="Reward Details" />
+        <activity
+            android:name=".Activities.SubscriptionActivity"
+            android:exported="false"
+            android:label="Subscribe and Save" />
+        <activity
+            android:name=".Activities.CartItemBottomActivity"
+            android:exported="false"
+            android:label="CartItems" />
+        <activity
+            android:name=".Activities.IncreamentDecreament"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FilterActivity"
+            android:exported="false"
+            android:label="Filter" />
+        <activity
+            android:name=".Activities.SortItems"
+            android:exported="false"
+            android:label="Sort Items" />
+        <activity
+            android:name=".Activities.ViewProductFullDetails"
+            android:exported="false"
+            android:label="View Product Details" />
+        <activity
+            android:name=".Activities.SelectProductList"
+            android:exported="false"
+            android:label="Product List" />
+        <activity
+            android:name=".Activities.OrderSummary"
+            android:exported="false"
+            android:label="Order Summary" />
+        <activity
+            android:name=".Activities.ApplyCoupenActivity"
+            android:exported="false"
+            android:label="Apply Coupen" />
+        <activity
+            android:name=".ui.profile.AddNewAddress"
+            android:exported="false"
+            android:label="Add Address" />
+        <activity
+            android:name=".ui.profile.ProfileInformation"
+            android:exported="false"
+            android:label="Profile" />
+        <activity
+            android:name=".ui.profile.MySubscription"
+            android:exported="false"
+            android:label="My Subscription" />
+        <activity
+            android:name=".ui.profile.DeliveryAdress"
+            android:exported="false"
+            android:label="Delivery Address" />
+        <activity
+            android:name=".ui.profile.CreditsActivity"
+            android:exported="false"
+            android:label="My Credits" />
+        <activity
+            android:name=".ui.profile.RewardsActivity"
+            android:exported="false"
+            android:label="My Rewards" />
+        <activity
+            android:name=".ui.profile.MyCoupensActivity"
+            android:exported="false"
+            android:label="My Coupens" />
+        <activity
+            android:name=".ui.profile.Refunds"
+            android:exported="false"
+            android:label="Refunds" />
+        <activity
+            android:name=".ui.profile.Transactions"
+            android:exported="false"
+            android:label="Transactions" />
+        <activity
+            android:name=".ui.profile.MySmartOrders"
+            android:exported="false"
+            android:label="My SmartOrders" />
+        <activity
+            android:name=".ui.profile.MyOrders"
+            android:exported="false"
+            android:label="My Orders" />
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.ViewAllCategories"
+            android:exported="false"
+            android:label="Shop by Category" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Activities.OtpScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

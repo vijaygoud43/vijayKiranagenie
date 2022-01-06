@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:scaleType="fitCenter"
+        android:id="@+id/listitemImageView1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:text="Medium Text"
+        android:textColor="#000"
+        android:id="@+id/listitemTextView1"/>
+
+    <!--<ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/steel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tata Tiscon 500d"
+        android:id="@+id/baseprice"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 mm"
+            android:id="@+id/size"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="207"
+            android:textColor="@color/red"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:id="@+id/price"/>
+
+
+    </LinearLayout>
+-->
+</LinearLayout>

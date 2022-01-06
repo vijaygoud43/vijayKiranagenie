@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.profile.AddNewAddress">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Contact Details"
+    android:padding="@dimen/_10sdp"
+    android:background="#f2f2f2"
+    android:textColor="#232323"
+    android:textSize="@dimen/_14sdp"
+    android:fontFamily="@font/googlesans_medium"/>
+
+<androidx.appcompat.widget.AppCompatEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:hint="Name"
+    android:textColorHint="#686868"
+    android:fontFamily="@font/googlesans_regular"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:hint="Mobile no"
+        android:textColorHint="#686868"
+        android:fontFamily="@font/googlesans_regular"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:padding="@dimen/_10sdp"
+        android:background="#f2f2f2"
+        android:textColor="#232323"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="@font/googlesans_medium"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_weight="0.7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:hint="House no"
+            android:textColorHint="#686868"
+            android:fontFamily="@font/googlesans_regular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_weight="1.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:hint="Apartment name"
+            android:textColorHint="#686868"
+            android:fontFamily="@font/googlesans_regular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:hint="Street details to locate you"
+        android:textColorHint="#686868"
+        android:fontFamily="@font/googlesans_regular"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:hint="Landmark"
+        android:textColorHint="#686868"
+        android:fontFamily="@font/googlesans_regular"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_weight="1.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:hint="City"
+            android:textColorHint="#686868"
+            android:fontFamily="@font/googlesans_regular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_weight="0.7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:hint="Pincode"
+            android:textColorHint="#686868"
+            android:fontFamily="@font/googlesans_regular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Address as"
+        android:padding="@dimen/_10sdp"
+        android:background="#f2f2f2"
+        android:textColor="#232323"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="@font/googlesans_medium"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:text="home"
+            android:background="@drawable/bg_box_curve"
+            android:textColorHint="#686868"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/googlesans_medium"
+          android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="wrap_content"
+            android:hint="work"
+      android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:background="@drawable/bg_box_curve"
+            android:textColorHint="#686868"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/googlesans_medium"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+    </LinearLayout>
+    <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="Make this my default address "
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/googlesans_bold"
+        android:text="Add New Address"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textColor="@color/white" />
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.SubCategoriesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ss.com.bannerslider.views.BannerSlider
+        android:id="@+id/subcat_banner"
+        android:layout_width="match_parent"
+        app:loopSlides="true"
+       android:layout_marginTop="@dimen/_10sdp"
+        app:defaultIndicators="circle"
+        app:interval="3000"
+        android:layout_height="@dimen/_120sdp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/homebanner"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/homebanner"
+            android:scaleType="fitXY" />
+
+    </ss.com.bannerslider.views.BannerSlider>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="#E80D7B" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:background="#14095A" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp"
+                android:text="SHOP BY CATEGORY"/>
+
+          <LinearLayout
+              android:layout_width="0dip"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.7"
+              android:layout_gravity="center"
+              android:orientation="vertical">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="#E80D7B" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="#14095A" />
+          </LinearLayout>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_shop_by_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp" />
+
+
+<TextView
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/_15sdp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/image_box_bg"
+    android:textColor="@color/formal_color"
+    android:fontFamily="@font/googlesans_bold"
+    android:text="VIEW All"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:background="#E80D7B" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:background="#14095A" />
+
+
+        <TextView
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#14095A"
+            android:fontFamily="@font/googlesans_bold"
+            android:padding="@dimen/_10sdp"
+            android:text="WINTER SALE GOOD BY DRY SKIN"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

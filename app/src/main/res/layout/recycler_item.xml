@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_id"
+            android:fontFamily="@font/googlesans_medium"
+            android:gravity="center"
+            android:maxLines="2"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="Cement bricks &amp;"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#393939"
+            />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/items_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            card_view:cardBackgroundColor="#e9edf9"
+            card_view:cardCornerRadius="5dp"
+            card_view:contentPaddingBottom="@dimen/_10sdp"
+            android:layout_margin="@dimen/_2sdp"
+            card_view:cardPreventCornerOverlap = "false"
+            card_view:cardElevation="5dp" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+<ImageSwitcher
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/image_circle_home">
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/oil"
+        android:scaleType="fitXY"
+       android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:id="@+id/iv" />
+</ImageSwitcher>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:fontFamily="@font/googlesans_medium"
+        android:gravity="center"
+        android:maxLines="2"
+        android:layout_gravity="center"
+        android:text="Cement bricks &amp;"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#393939"
+         />
+
+    <ImageSwitcher
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewallitems"
+        android:visibility="gone"
+        android:background="@drawable/image_circle_home">
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/oil"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:id="@+id/viewall" />
+    </ImageSwitcher>
+</LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

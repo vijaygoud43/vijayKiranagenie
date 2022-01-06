@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subcategory_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        card_view:cardBackgroundColor="#e9edf9"
+        card_view:cardCornerRadius="5dp"
+        android:layout_margin="@dimen/_2sdp"
+        card_view:cardPreventCornerOverlap = "false"
+        card_view:cardElevation="5dp" >
+        <LinearLayout
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/dotted"
+            android:orientation="vertical">
+
+            <ImageSwitcher
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/image_circle_bg">
+
+                <ImageView
+                    android:id="@+id/subcat_allimage"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </ImageSwitcher>
+            <TextView
+                android:id="@+id/subcat_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_8sdp"
+                android:fontFamily="@font/googlesans_medium"
+                android:textColor="#252629"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

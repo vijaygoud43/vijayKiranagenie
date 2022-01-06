@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.mbr.KiranaGenie.Activities.LoginActivity">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#222"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/opensans_extrabold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/edt_txt_bg"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:src="@drawable/facebook"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/edt_txt_bg"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:src="@drawable/google"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or Login with Email"
+        android:layout_gravity="center"
+        android:textColor="#666666"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/googlesans_medium"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_30sdp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/country_code_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_txt_codebg"
+            android:focusable="false"
+            android:padding="@dimen/_10sdp"
+            android:text="+91"
+            android:textColor="#000"
+            app:ccp_clickable="false" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_1sdp"
+            android:layout_toRightOf="@+id/country_code_picker"
+            android:background="@drawable/edt_login_mobile_bg"
+            android:hint="9999999999"
+            android:inputType="number"
+            android:padding="@dimen/_10sdp"
+            android:paddingLeft="@dimen/_8sdp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/get_otp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/googlesans_bold"
+            android:text="Sign up  using OTP"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="#686868"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Don't have an account?"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/googlesans_medium"
+            android:text="Register"
+            android:textColor="#031763"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+</LinearLayout>

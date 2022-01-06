@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rewards_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+card_view:cardBackgroundColor="#e9edf9"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPaddingBottom="@dimen/_10sdp"
+        android:layout_margin="@dimen/_2sdp"
+        card_view:cardPreventCornerOverlap = "false"
+        card_view:cardElevation="5dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageSwitcher
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/image_circle_bg">
+
+    <ImageView
+        android:id="@+id/reward_allimage"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        tools:srcCompat="@tools:sample/avatars" />
+            </ImageSwitcher>
+    <TextView
+        android:id="@+id/rewards_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/_12sdp"
+
+        android:layout_gravity="center"
+        android:padding="@dimen/_15sdp"
+        android:fontFamily="@font/googlesans_medium"
+        android:textColor="#252629"
+        android:textAlignment="center" />
+      <TextView
+                android:id="@+id/rewards_tc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T&amp;C"
+                android:textSize="@dimen/_10sdp"
+                android:singleLine="true"
+          android:layout_marginTop="@dimen/_15sdp"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="@dimen/_5sdp"
+                android:fontFamily="@font/googlesans_medium"
+                android:textColor="#252629"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

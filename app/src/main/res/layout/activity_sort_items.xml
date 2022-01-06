@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SortItems">
+    <LinearLayout
+        android:id="@+id/task_list_fragment"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        >
+    </LinearLayout>
+
+    <!-- example content hided in bottom -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@drawable/background_bg"
+        android:layout_marginBottom="@dimen/_10sdp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relavence"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popularity"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price-Low To High"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price-High To Low"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Newest First"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#000"
+            android:fontFamily="@font/googlesans_bold"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

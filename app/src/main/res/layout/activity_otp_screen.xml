@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/background"
+    tools:context="com.mbr.KiranaGenie.Activities.OtpScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_8sdp"
+        android:paddingRight="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backarrow"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Using OTP"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/googlesans_bold"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="@dimen/_18sdp"/>
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/_25sdp"
+          android:layout_marginLeft="@dimen/_25sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Please check the OTP send to your mobile number"
+            android:textSize="@dimen/_14sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="4"
+
+        android:textIsSelectable="false"
+        android:textSize="25sp"
+        app:pinAnimationType="none"
+        app:pinBackgroundDrawable="@drawable/pin_bg"
+        app:pinCharacterSpacing="4dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="00:59"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/_8sdp"
+            android:padding="@dimen/_1sdp"
+            android:textAllCaps="false"
+            android:background="@drawable/otp_button_bg"
+            android:text="Resend OTP"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Login"
+        android:background="@drawable/button_bg"            android:textColor="@color/white"
+        android:id="@+id/submit_otp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:fontFamily="@font/googlesans_bold"
+        android:textSize="@dimen/_15sdp"
+        android:layout_below="@+id/txt_pin_entry"
+        />
+
+</LinearLayout>
+</LinearLayout>
+
+

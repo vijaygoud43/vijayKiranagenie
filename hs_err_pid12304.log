@@ -1,0 +1,37 @@
+
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED -Xmx1536m -Dfile.encoding=windows-1252 -Duser.country=US -Duser.language=en -Duser.variant org.gradle.launcher.daemon.bootstrap.GradleDaemon 6.1.1
+
+Host: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 8 cores, 7G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1348)
+Time: Wed Dec 15 16:48:27 2021 India Standard Time elapsed time: 15513.293087 seconds (0d 4h 18m 33s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002179c869800):  JavaThread "Execution worker for ':' Thread 6" [_thread_in_vm, id=1236, stack(0x00000045cf400000,0x00000045cf500000)]
+
+Stack: [0x00000045cf400000,0x00000045cf500000],  sp=0x00000045cf4f9490,  free space=997k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x372cf3]
+V  [jvm.dll+0x5eced2]
+V  [jvm.dll+0x3736aa]
+V  [jvm.dll+0x373878]
+V  [jvm.dll+0x6bfcec]
+V  [jvm.dll+0x6c0f88]
+V  [jvm.dll+0x6c13a5]
+V  [jvm.dll+0x6c11b3]
+V  [jvm.dll+0x23c8c7]
+V  [jvm.dll+0x179863]
+V  [jvm.dll+0x4e49a8]
+V  [jvm.dll+0x4e7c0a]
+V  [jvm.dll+0x4e75dd]
+V  [jvm.dll+0x657a5a]
+V  [jvm.dll+0x65abb6]
+V  [jvm.dll+0x65a646]

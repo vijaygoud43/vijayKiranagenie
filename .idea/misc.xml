@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/background_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/bg_box_curve.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/button_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/cat_button_bg.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/circle.xml" value="0.21296296296296297" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/circle_shape.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/dotted.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/edt_login_mobile_bg.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/edt_txt_background.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/edt_txt_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/edt_txt_bgg.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/edt_txt_codebg.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_add.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_add_task_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_add_white.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_filter_list_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_local_offer_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_minimize_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_star_rate_block_12.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_star_rate_block_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_thumb_down_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_outline_check_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_outline_shopping_bag_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_remove.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/ic_round_check_circle_24.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/image_box_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/image_circle.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/image_circle_bg.xml" value="0.2101851851851852" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/image_circle_home.xml" value="0.21296296296296297" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/navigation_view_colored.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/otp_button_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/rectangle_box_bg.xml" value="0.21296296296296297" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/red_dotted.xml" value="0.21481481481481482" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/spinner_background_box.xml" value="0.21481481481481482" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/spinner_bg.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/spinner_bg_box.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/strike_line.xml" value="0.2111111111111111" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/txt_background.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/txt_background1.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/txt_background_shape.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/txtrating1_background.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/drawable/txtrating_background.xml" value="0.2203125" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout-land/activity_select_product.xml" value="0.1728395061728395" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_add_new_address.xml" value="0.1671195652173913" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_cart_item_bottom.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_delivery_adress.xml" value="0.19701086956521738" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_filter.xml" value="0.16168478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_gridview.xml" value="0.16485507246376813" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_increament_decreament.xml" value="0.19293478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_login.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_logout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_my_orders.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_order_summary.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_otp_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_product_full_details.xml" value="0.18297101449275363" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_refunds.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_registration.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_reward_details.xml" value="0.1721014492753623" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_rewards.xml" value="0.16485507246376813" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_select_product.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_sign_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_sign_up.xml" value="0.18614130434782608" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_sort_filter.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_sort_items.xml" value="0.1716485507246377" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_splash_screen.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_sub_categories.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_subscription.xml" value="0.1721014492753623" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_transactions.xml" value="0.16077898550724637" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_view_all_categories.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_view_product_full_details.xml" value="0.1728395061728395" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/activity_write_review.xml" value="0.1621376811594203" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/app_bar_main.xml" value="0.19293478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/bannerhomepage.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/bottom_banner.xml" value="0.20380434782608695" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/cart_fragment.xml" value="0.19701086956521738" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/content_main.xml" value="0.19293478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/custom_gridview.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/custom_toast_layout.xml" value="0.19701086956521738" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/filter_list.xml" value="0.16168478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_dashboard.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_full_details.xml" value="0.1875" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_gallery.xml" value="0.19293478260869565" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_home.xml" value="0.14356884057971014" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_notifications.xml" value="0.18432971014492755" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_product_detail.xml" value="0.1875" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_product_details.xml" value="0.19202898550724637" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/fragment_profile.xml" value="0.20380434782608695" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/homebanner_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/item_subscription.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/minofferbanners.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/my_orders_list.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/product_fulldetails_recycler.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/product_list.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/recycler_item.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/recycler_selected_product_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/rewards_custom_gridview.xml" value="0.1" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/row_cart.xml" value="0.12454710144927536" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/selected_product_list_recycle.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/shopby_category_gridview.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/sign_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/sort_items.xml" value="0.17527173913043478" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/sub_cat_items.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/subcat_recycler_item.xml" value="0.19791666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/topdeals_recycleritem.xml" value="0.1716485507246377" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/layout/view_similar_products.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/menu-v26/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android projects/Kirana Genie/KiranaGenie/app/src/main/res/xml/network_security_config.xml" value="0.15172101449275363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

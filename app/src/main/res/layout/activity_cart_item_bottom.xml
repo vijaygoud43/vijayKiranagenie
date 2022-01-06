@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    android:id="@+id/cartlayout"
+    android:layout_marginBottom="@dimen/_25sdp"
+    tools:context=".Activities.CartItemBottomActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_outline_location_on_24"
+                android:padding="@dimen/_10sdp"
+                android:textColor="#858585"
+                android:text="Ayyappa  Society,Madhapur, Telangana 500081"
+                android:textSize="@dimen/_10sdp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:weightSum="3"
+                android:background="@drawable/background_bg"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Groceries Cart:"
+                    android:textColor="#454545"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/googlesans_medium"
+                    android:textSize="@dimen/_15sdp"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="#454545"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/googlesans_regular"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:text="(4 Items)"
+                    android:id="@+id/txt_amount"/>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs.288.00"
+                    android:textColor="#454545"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:fontFamily="@font/googlesans_medium"
+                    android:textSize="@dimen/_15sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:contentPaddingBottom="@dimen/_10sdp"
+                android:layout_margin="@dimen/_2sdp"
+                card_view:cardPreventCornerOverlap = "false"
+                card_view:cardElevation="5dp" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="@dimen/_80sdp"
+                        android:scaleType="fitXY"
+                        android:layout_weight="0.7"
+                        android:layout_gravity="center"
+                        android:src="@drawable/detol"/>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:padding="@dimen/_2sdp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ponds Dreamflower pink Lily Fragnant Talc 100g Rs.85.50"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/googlesans_bold"
+                            android:textColor="#413f3f"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:weightSum="3">
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="Rs.85.50"
+                                android:layout_weight="0.8"
+                                android:textSize="@dimen/_10sdp"
+                                android:textColor="#000"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_medium" />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="Rs.85.50"
+                                android:textColor="#858585"
+                                android:textSize="@dimen/_9sdp"
+                                android:background="@drawable/strike_line"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_regular"
+                                android:layout_weight="0.8"/>
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="(You save:Rs.85.50)"
+                                android:textSize="@dimen/_9sdp"
+                                android:layout_weight="1.4"
+                                android:textColor="@color/formal_color"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_regular"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginRight="@dimen/_2sdp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/ic_baseline_add_24"
+                            android:id="@+id/increase"
+
+                            />
+                        <TextView
+                            android:id="@+id/integer_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle_shape"
+                            android:text="1"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            />
+                        <ImageView
+                            android:id="@+id/decrease"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/ic_baseline_minimize_24"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="5dp"
+                card_view:contentPaddingBottom="@dimen/_10sdp"
+                android:layout_margin="@dimen/_2sdp"
+                card_view:cardPreventCornerOverlap = "false"
+                card_view:cardElevation="5dp" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dip"
+                        android:layout_height="@dimen/_80sdp"
+                        android:scaleType="fitXY"
+                        android:layout_weight="0.7"
+                        android:layout_gravity="center"
+                        android:src="@drawable/detol"/>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:padding="@dimen/_2sdp"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ponds Dreamflower pink Lily Fragnant Talc 100g Rs.85.50"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/googlesans_bold"
+                            android:textColor="#413f3f"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:weightSum="3">
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="Rs.85.50"
+                                android:layout_weight="0.8"
+                                android:textSize="@dimen/_10sdp"
+                                android:textColor="#000"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_medium" />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="Rs.85.50"
+                                android:textColor="#858585"
+                                android:textSize="@dimen/_9sdp"
+                                android:background="@drawable/strike_line"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_regular"
+                                android:layout_weight="0.8"/>
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:text="(You save:Rs.85.50)"
+                                android:textSize="@dimen/_9sdp"
+                                android:layout_weight="1.4"
+                                android:textColor="@color/formal_color"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:fontFamily="@font/googlesans_regular"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginRight="@dimen/_2sdp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/ic_baseline_add_24"
+
+
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/circle_shape"
+                            android:text="1"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            />
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@drawable/ic_baseline_minimize_24"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="@dimen/_15sdp"
+            android:id="@+id/apply_coupen"
+            android:background="@drawable/background_bg"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:src="@drawable/ic_baseline_arrow_forward_12"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="APPLY COUPON"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:textColor="#858585"
+                android:fontFamily="@font/googlesans_medium"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_12"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:weightSum="2"
+            android:gravity="center"
+            android:background="@drawable/background_bg"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_15sdp"
+                android:textColor="#454545"
+                android:textSize="@dimen/_15sdp"
+                android:text="Total Rs2,271.92"/>
+            <Button
+                android:layout_weight="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_15sdp"
+                android:text="Continue"
+                android:id="@+id/continue_order"
+                android:textColor="@color/white"
+                android:background="@drawable/button_bg"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
